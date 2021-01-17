@@ -8,6 +8,10 @@
     font-family: roboto;
 }
 
+button:focus{
+    outline-width: 0px;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -81,6 +85,7 @@ h1, h2, h3, h4, h5, h6{
     cursor: pointer;
     color: black;
     display: none;
+    z-index: 100;
 }
 
 .move-top i{
@@ -225,6 +230,7 @@ a{
 .section-1{
     margin-top: 40px;
     display: flex;
+    text-align: center;
     flex-direction: column;
     align-items: center;
 }
@@ -766,6 +772,10 @@ a{
     .section-5 h2{
         font-size: 1.5rem;
     }
+
+    .article-2 h2{
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 371px){
@@ -776,13 +786,16 @@ a{
 
 @media screen and (max-width: 760px){
     
-.hamburger-icon{
-    display: flex;
-}
+    .hamburger-icon{
+        display: flex;
+    }
 
-.nav > span{
-    display: none;
-}
+    .nav > span{
+        display: none;
+    }
+    .nav > img{
+        margin-left: 0px;
+    }
 
 }
 
