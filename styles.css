@@ -16,6 +16,52 @@ h1, h2, h3, h4, h5, h6{
     font-family: Montserrat;
 }
 
+.hamburger-icon{
+    position: fixed;
+    right: 5%;
+    top: 4%;
+    width: 50px;
+    height: 45px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid white;
+    display: none;
+    z-index: 1050;
+
+}
+
+#bar-1{
+    order: 1;
+}
+
+#bar-2{
+    order: 2;
+}
+
+#bar-3{
+    order: 3;
+}
+
+.hamburger-icon > span{
+    width: 30px;
+    height: 4px;
+    background-color: white;
+}
+
+.tilt-1{
+    transform: translate(0px, 7px) rotate(40deg);
+}
+
+.tilt-2{
+    display: none;
+}
+
+.tilt-3{
+    transform: translate(0px, -8px) rotate(140deg);
+}
+
+
 .move-top{
     width: 60px;
     height: 60px;
@@ -59,6 +105,13 @@ body{
     box-shadow: 1px 1px 10px 1px #C2187E;
 }
 
+
+
+.nav-extend{
+    height: 400px;
+}
+
+
 .nav{
     position: fixed;
     padding: 0.8em;
@@ -74,6 +127,7 @@ a{
 }
 
 .nav > img{
+    margin-top: 5px;
     margin-left: 50px;
 }
 
@@ -82,6 +136,17 @@ a{
     float: right;
     margin-top: 20px;
     margin-right: 20px;
+}
+
+.links{
+    height: 200px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    float: none !important;
+    margin-right: 0px !important;
+    margin-top: 50px !important;
 }
 
 .nav > span > a:nth-child(n+0){
@@ -699,5 +764,17 @@ a{
     .section-5 button:nth-child(2){
         margin-top: 20px;
     }
+}
+
+@media screen and (max-width: 760px){
+    
+.hamburger-icon{
+    display: flex;
+}
+
+.nav > span{
+    display: none;
+}
+
 }
 

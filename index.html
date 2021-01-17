@@ -8,19 +8,25 @@
     <script src="https://kit.fontawesome.com/4af1b7453a.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    
     <a class="move-top" href="#">
         <i class="fas fa-arrow-up"></i>
     </a>
     <nav role="navigation" class="nav">
         <img src="./images/logo.png" alt="Website Logo" title="AppSize">
-        <span>
-            <a href="#">Home</a>
-            <a href="#advanceFeatures">Features</a>
-            <a href="#whyIsBest">Why is Best</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#testimonials">Testimonials</a>
-            <a href="#contact">Contact</a>
+        <span id="nav-links">
+            <a href="#" onclick="minimize()">Home</a>
+            <a href="#advanceFeatures" onclick="minimize()">Features</a>
+            <a href="#whyIsBest" onclick="minimize()">Why is Best</a>
+            <a href="#pricing" onclick="minimize()">Pricing</a>
+            <a href="#testimonials" onclick="minimize()">Testimonials</a>
+            <a href="#contact" onclick="minimize()">Contact</a>
         </span>
+        <div class="hamburger-icon" id="burgerIcon">
+            <span id="bar-1"></span>
+            <span id="bar-2"></span>
+            <span id="bar-3"></span>
+        </div>
     </nav>
     <header class="header">
         <section class="header-section">
