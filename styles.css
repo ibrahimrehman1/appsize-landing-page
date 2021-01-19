@@ -22,10 +22,10 @@ h1, h2, h3, h4, h5, h6{
 
 .hamburger-icon{
     position: fixed;
-    right: 5%;
-    top: 4%;
-    width: 50px;
-    height: 45px;
+    right: 20px;
+    top: 20px;
+    width: 45px;
+    height: 42px;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -55,12 +55,12 @@ h1, h2, h3, h4, h5, h6{
 
 .hamburger-icon > span{
     width: 30px;
-    height: 4px;
+    height: 3px;
     background-color: white;
 }
 
 .tilt-1{
-    transform: translate(0px, 7px) rotate(40deg);
+    transform: translate(0px, 5px) rotate(40deg);
     
 }
 
@@ -359,6 +359,10 @@ a{
     padding: 2em;
 }
 
+.sub-section-3{
+    margin-left: 30px;
+}
+
 .section-5{
     display: flex;
     justify-content: space-around;
@@ -582,13 +586,18 @@ a{
 }
 
 .img-testimonials{
-    margin-top: 20px;
+    margin-top: 40px;
     border-radius: 50%;
 }
 
 .article-8{
     padding: 2em;
     background-color: #f8f9fa;
+}
+
+.article-8 picture{
+    width: 220px;
+    height: 480px;
 }
 
 .article-9{
@@ -654,7 +663,7 @@ a{
     }
 
     .section-10 > picture{
-        margin-top: 20px;
+        margin-top: 50px;
     }
 
     .header img{
@@ -673,7 +682,7 @@ a{
         align-items: center;
     }
     .section-9 > section{
-        margin-top: 20px;
+        margin-top: 50px;
     }
 
     .section-7{
@@ -735,8 +744,13 @@ a{
         margin-bottom: 30px;
     }
 
-    .sub-section-3 div{
+    .sub-section-3 p{
         margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .sub-section-3{
+        margin-left: 0px;
     }
 }
 
@@ -744,6 +758,10 @@ a{
     .section-2{
         flex-direction: column;
         text-align: center;
+    }
+
+    .section-2 > div{
+        margin-top: 30px;
     }
 }
 
@@ -755,8 +773,9 @@ a{
     }
 
     .section-6 div{
-        margin-top: 20px;
+        margin-top: 40px;
     }
+
 }
 
 @media screen and (max-width: 450px){
@@ -776,10 +795,40 @@ a{
     .article-2 h2{
         font-size: 1.5rem;
     }
+
+    h1{
+        font-size: 2rem !important;
+    }
+
+    p, .section-11 span{
+        font-size: .8rem;
+    }
+
+    .section-1 h2{
+        font-size: 1.5rem;
+        margin-top: 30px;
+    }
+
+    .header-section > button{
+        padding: .8em 2em
+    }
+    
+    .section-9 span{
+        font-size: .8rem;
+    }
+
+    .article-8 p{
+        margin-top: 20px;
+    }
+
+    .nav > img{
+        width: 180px;
+        height: 40px;
+    }
 }
 
 @media screen and (max-width: 371px){
-    .section-5 button:nth-child(2){
+    .section-5 button:nth-child(2), .sub-section-3 button:nth-child(2){
         margin-top: 20px;
     }
 }
