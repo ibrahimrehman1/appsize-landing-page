@@ -536,15 +536,16 @@ a{
     border-radius: 20px;
     padding: .6em 4em;
     border-width: 0px;
-    font-weight: 400;
-    color: white;
+    font-weight: bold;
+    color: black;
     cursor: pointer;
     margin-top: 20px;
-    background-color: rgb(245, 87, 147);
+    background-color: rgb(241, 53, 125);
 }
 
 .card-btn:hover{
     background-color: #C2187E;
+    color: white;
 }
 
 .article-6{
