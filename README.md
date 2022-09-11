@@ -1,3 +1,3 @@
-# Landing-Page-2
+# Fully Responsive Appsize Landing Page
 
-Link: https://ibrahimrehman1.github.io/landing-page-2/
+https://ibrahimrehman1.github.io/appsize-landing-page/
